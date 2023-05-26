@@ -1,1 +1,0 @@
-Open index.html to access the assignment.
