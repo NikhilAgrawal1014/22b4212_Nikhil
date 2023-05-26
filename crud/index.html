@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SARC IITB CRUD Application</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SARC IITB CRUD Application</h1>
+  </header>
+
+  <main>
+    <form id="activity-form">
+      <label for="name">Activity Name:</label>
+      <input type="text" id="name" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" required></textarea>
+
+      <input type="submit" value="Add Activity">
+    </form>
+
+    <table id="activity-table">
+      <thead>
+        <tr>
+          <th>Activity Name</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be dynamically added here -->
+      </tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
